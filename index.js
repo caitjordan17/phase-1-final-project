@@ -30,7 +30,11 @@ function showBrewery(brewery){
     img.classList.add('card-img')
     const street = document.createElement('h3');
     street.textContent = brewery.street
+    const btn = document.createElement('button');
+    btn.setAttribute('type', 'button');
+    btn.textContent = 'Visited'
 
-    div.append(h1, type, street, img);
+
+    div.append(h1, type, street, img, btn);
     breweryCardCollection.append(div);
 }
