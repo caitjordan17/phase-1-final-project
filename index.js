@@ -17,4 +17,13 @@ form.addEventListener('submit', (event) => {
 
 function showBrewery(brewery){
     //adds cards that populate with brewery name
+    const breweryCardCollection = document.querySelector('#brewery-cards');
+    const div = document.createElement('div');
+    div.classList.add('card');
+    div.setAttribute('id', brewery.name)
+    const h1 = document.createElement('h1');
+    h1.textContent = brewery.name;
+
+    div.append(h1);
+    breweryCardCollection.append(div);
 }
