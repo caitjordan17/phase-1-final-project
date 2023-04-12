@@ -9,5 +9,7 @@ form.addEventListener('submit', (event) => {
     .then(response => response.json())
     .then(response => {
         console.log('response:', response)
+        const breweryCards = document.querySelector('#brewery-cards')
+        breweryCards.innerHTML = ''
     })
 })
