@@ -25,10 +25,12 @@ function showBrewery(brewery){
     h1.textContent = brewery.name;
     const type = document.createElement('h3');
     type.textContent = brewery.brewery_type
-
+    const img = document.createElement('img');
+    img.src = 'https://icons-for-free.com/iconfiles/png/512/beer-131982518583696551.png'
+    img.classList.add('card-img')
     const street = document.createElement('h3');
     street.textContent = brewery.street
 
-    div.append(h1, type, street);
+    div.append(h1, type, street, img);
     breweryCardCollection.append(div);
 }
