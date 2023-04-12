@@ -11,5 +11,10 @@ form.addEventListener('submit', (event) => {
         console.log('response:', response)
         const breweryCards = document.querySelector('#brewery-cards')
         breweryCards.innerHTML = ''
+        response.forEach(brewery => showBrewery(brewery));
     })
 })
+
+function showBrewery(brewery){
+    //adds cards that populate with brewery name
+}
