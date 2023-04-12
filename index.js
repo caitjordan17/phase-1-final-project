@@ -26,6 +26,9 @@ function showBrewery(brewery){
     const type = document.createElement('h3');
     type.textContent = brewery.brewery_type
 
-    div.append(h1, type);
+    const street = document.createElement('h3');
+    street.textContent = brewery.street
+
+    div.append(h1, type, street);
     breweryCardCollection.append(div);
 }
