@@ -23,7 +23,9 @@ function showBrewery(brewery){
     div.setAttribute('id', brewery.name)
     const h1 = document.createElement('h1');
     h1.textContent = brewery.name;
+    const type = document.createElement('h3');
+    type.textContent = brewery.brewery_type
 
-    div.append(h1);
+    div.append(h1, type);
     breweryCardCollection.append(div);
 }
