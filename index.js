@@ -37,3 +37,8 @@ function showBrewery(brewery){
     breweryCardCollection.append(div);
 }
 
+document.addEventListener('click', (event) => {
+    document.addEventListener('click', (event) => {
+        if (event.target.type === 'button') {
+            //save brewery card
+    }})})
