@@ -38,8 +38,10 @@ function showBrewery(brewery){
 }
 
 document.addEventListener('click', (event) => {
-    document.addEventListener('click', (event) => {
-        if (event.target.type === 'button') {
-            //save brewery card
-            console.log(event.target.type)
-    }})})
+    if (event.target.type === 'button') {
+    console.log(event.target.type)
+    breweryName = event.target.parentElement.id;
+    console.log('parent:', event.target.parentElement.id)
+    addBreweryToList(breweryName);
+    }
+})
