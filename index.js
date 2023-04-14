@@ -41,4 +41,5 @@ document.addEventListener('click', (event) => {
     document.addEventListener('click', (event) => {
         if (event.target.type === 'button') {
             //save brewery card
+            console.log(event.target.type)
     }})})
