@@ -1,4 +1,10 @@
 body {
+    margin: 0;
+    font-family: monospace;
+    background: #a0c5ff;
+}
+
+#brewery-header {
     display: flex;
     justify-content: center;
     background: #a0c5ff;
@@ -6,7 +12,7 @@ body {
     opacity: .8;
     height: 5rem;
     padding: 1rem;
-}
+  }
 
 #main {
     display: flex;
