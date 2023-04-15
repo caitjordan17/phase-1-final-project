@@ -1,0 +1,9 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: #a0c5ff;
+    color: #344d66;
+    opacity: .8;
+    height: 5rem;
+    padding: 1rem;
+}
