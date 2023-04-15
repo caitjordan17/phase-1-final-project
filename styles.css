@@ -62,3 +62,21 @@ button:hover {
     height: 7rem;
     width: auto;
   } 
+
+  #search {
+    position: relative;
+    background-color: #e0f0ff;
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    width: max-content;
+    color: #344d66;
+    font-size: 18px;
+    justify-self: center;
+  }
+
+  #search:hover {
+    background-color: ghostwhite;
+    border: #344d66 solid 1px;
+    color: #344d66;
+  }
