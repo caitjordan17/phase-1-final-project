@@ -45,3 +45,7 @@ document.addEventListener('click', (event) => {
     addBreweryToList(breweryName);
     }
 })
+
+function addBreweryToList(breweryName){
+    //add clicked breweries to list at bottom
+}
