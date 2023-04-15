@@ -56,3 +56,9 @@ button:hover {
     background-color: ghostwhite;
     color: #344d66;
   }
+
+  .card-img {
+    justify-self: center;
+    height: 7rem;
+    width: auto;
+  } 
