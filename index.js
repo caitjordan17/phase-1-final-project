@@ -53,4 +53,7 @@ function addBreweryToList(breweryName){
     div.classList.add('fav-card');
     const h1 = document.createElement('h1');
     h1.textContent = breweryName
+
+    div.append(h1)
+    favoriteBreweries.append(div)
 }
