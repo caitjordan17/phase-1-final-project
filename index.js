@@ -62,5 +62,9 @@ const submit = document.querySelector('#submit')
 submit.addEventListener('mouseenter', (event) => {
     event.target.style.backgroundColor = '#ffde5c';
     console.log(event.target)
+    setTimeout(() => {
+        event.target.style.backgroundColor = '#344d66'
+    }, 1000);
 },
+false
 );
