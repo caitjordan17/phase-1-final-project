@@ -44,3 +44,15 @@ button:hover {
     font-size: 18px;
     font-family: monospace;
 }
+
+.fav-card {
+    text-align: center;
+    border: grey solid 1px;
+    padding: 1rem;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    box-shadow: 3px 4px #344d66;
+    background-color: ghostwhite;
+    color: #344d66;
+  }
