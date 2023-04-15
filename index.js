@@ -48,4 +48,5 @@ document.addEventListener('click', (event) => {
 
 function addBreweryToList(breweryName){
     //add clicked breweries to list at bottom
+    const favoriteBreweries = document.querySelector('#brewery-list')
 }
