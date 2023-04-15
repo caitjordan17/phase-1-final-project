@@ -60,5 +60,7 @@ function addBreweryToList(breweryName){
 
 const submit = document.querySelector('#submit') 
 submit.addEventListener('mouseenter', (event) => {
-    //change background color of submit button 
-});
+    event.target.style.backgroundColor = '#ffde5c';
+    console.log(event.target)
+},
+);
