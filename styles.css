@@ -12,4 +12,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
+
+#brewery-list {
+    margin: 2rem;
+}
