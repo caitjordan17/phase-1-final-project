@@ -31,7 +31,7 @@ function showBrewery(brewery){
     street.textContent = brewery.street
     const btn = document.createElement('button');
     btn.setAttribute('type', 'button');
-    btn.textContent = 'Visited'
+    btn.textContent = 'Save'
 
     div.append(h1, type, img, street, btn);
     breweryCardCollection.append(div);
