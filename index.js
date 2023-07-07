@@ -1,14 +1,12 @@
 const form = document.querySelector('.search-by-city');
 form.addEventListener('submit', (event) => {
     event.preventDefault();
-    console.log('event:', event);
     const searchResult = document.querySelector('#search').value
     const citySplit = searchResult.split(' ')
     const city = citySplit.join('_')
     fetch(`https://api.openbrewerydb.org/v1/breweries?by_city=${city}&per_page=100`)
     .then(response => response.json())
     .then(response => {
-        console.log('response:', response)
         const breweryCards = document.querySelector('#brewery-cards')
         breweryCards.innerHTML = ''
         response.forEach(brewery => showBrewery(brewery));
@@ -39,7 +37,6 @@ function showBrewery(brewery){
 
 document.addEventListener('click', (event) => {
     if (event.target.type === 'button') {
-    console.log(event.target.type)
     breweryName = event.target.parentElement.id;
     console.log('parent:', event.target.parentElement.id)
     addBreweryToList(breweryName);
@@ -61,7 +58,6 @@ function addBreweryToList(breweryName){
 const submit = document.querySelector('#submit') 
 submit.addEventListener('mouseenter', (event) => {
     event.target.style.backgroundColor = '#ffde5c';
-    console.log(event.target)
     setTimeout(() => {
         event.target.style.backgroundColor = '#344d66'
     }, 1000);
