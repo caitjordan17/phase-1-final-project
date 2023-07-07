@@ -25,7 +25,7 @@ Save any breweries that you love by clicking the "Save" button on the card and t
 
 ## Roadmap
 On our 2023 Roadmap, our team at Barley Dog Headquarters are looking to do some feature enhancements! 
-- Filter by Brewery Type
+- Directions to brewery
 - Ability to save different kinds of lists
 - The ability to see where the brewery is on a map
 
